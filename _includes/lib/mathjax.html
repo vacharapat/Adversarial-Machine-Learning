@@ -1,1 +1,26 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$', '$'], ["$$", "$$"] ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      "HTML-CSS": {
+        linebreaks: {
+          automatic: true
+        },
+        scale: 90,
+        fonts: ["TeX"],
+        mtextFontInherit: false,
+        matchFontHeight: true
+      },
+      "TeX": {
+        extensions: ["AMSmath.js", "AMSsymbols.js", "mediawiki-texvc.js"],
+      }
+      //,
+      //displayAlign: "left",
+      //displayIndent: "2em"
+    });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default" type="text/javascript"></script>
