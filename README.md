@@ -8,3 +8,4 @@
 เนื้อหาส่วนใหญ่อ้างอิงจาก [Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org) ของ Zico Kolter และ Aleksander Madry
 
 1. [แบบจำลอง deep learning พอสังเขป](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/01)
+1. [การสร้าง adversarial example] (https://vacharapat.github.io/Adversarial-Machine-Learning/docs/02)
