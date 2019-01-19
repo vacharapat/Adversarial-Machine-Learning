@@ -12,3 +12,4 @@
 1. [การโจมตีแบบกำหนดเป้าหมาย](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/03)
 1. [Adversarial robustness](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/04)
 1. [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/05)
+1. Logistic regression (coming soon)
