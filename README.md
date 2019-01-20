@@ -13,3 +13,4 @@
 1. [Adversarial robustness](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/04)
 1. [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/05)
 1. [Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/06)
+1. [Adversarial example และ robustness ของ Linear binary classifier]((https://vacharapat.github.io/Adversarial-Machine-Learning/docs/07)
