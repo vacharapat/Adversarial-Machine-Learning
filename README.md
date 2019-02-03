@@ -16,5 +16,5 @@
 1. [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/05)
 
 ### แบบจำลองเชิงเส้น
-1. [Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/06)
+1. [แบบจำลอง Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/06)
 1. [Adversarial linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/07)
