@@ -7,6 +7,8 @@
 บทความชุดนี้บันทึกความรู้พื้นฐานทางทฤษฎีที่เกี่ยวข้องกับการก่อกวนแบบจำลองทาง machine learning ที่ได้รับความนิยมในปัจจุบันเช่น deep learning รวมถึงการเพิ่มความทนทานให้กับแบบจำลองเพื่อป้องกันการถูกก่อกวน
 เนื้อหาส่วนใหญ่อ้างอิงจาก [Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org) ของ Zico Kolter และ Aleksander Madry
 
+### บทนำ
+
 1. [แบบจำลอง deep learning พอสังเขป](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/01)
 1. [การสร้าง adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/02)
 1. [การโจมตีแบบกำหนดเป้าหมาย](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/03)
