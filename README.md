@@ -20,4 +20,4 @@
 1. [Adversarial linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/07)
 
 ### Adversarial example สำหรับแบบจำลอง deep learning
-1. [Fast Gradient Sign Method]((https://vacharapat.github.io/Adversarial-Machine-Learning/docs/08)
+1. [Fast Gradient Sign Method](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/08)
