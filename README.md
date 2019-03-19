@@ -22,7 +22,7 @@
 1. [Adversarial training](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/10)
 
 ### Robustness Certification
-1. Constrained formulation ของการโจมตีแบบกำหนดเป้าหมาย
+1. การสร้าง robustness certificate
 1. Linear programming relaxation
 1. Semidefinite programming relaxation
 
