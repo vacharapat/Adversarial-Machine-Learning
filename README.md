@@ -23,7 +23,7 @@
 
 ### Robustness Certification
 1. [การสร้าง robustness certificate](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/11)
-1. Linear programming relaxation
+1. [Linear programming relaxation](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/12)
 1. Semidefinite programming relaxation
 
 ### ทฤษฎีการเรียนรู้เชิงคำนวณ
