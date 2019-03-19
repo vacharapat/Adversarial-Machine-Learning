@@ -21,6 +21,11 @@
 1. [Projected Gradient Descent](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/09)
 1. Adversarial training
 
+### Robustness Certification
+1. การประมาณ adversarial loss
+1. Linear programming relaxation
+1. Semidefinite programming relaxation
+
 ### ทฤษฎีการเรียนรู้เชิงคำนวณ
 1. Probably approximately correct 
 1. การวิเคราะห์สำหรับ hypothesis space ที่มีขนาดจำกัด
