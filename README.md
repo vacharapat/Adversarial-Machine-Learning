@@ -19,7 +19,7 @@
 1. [Adversarial linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/07)
 1. [Fast Gradient Sign Method](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/08)
 1. [Projected Gradient Descent](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/09)
-1. Adversarial training
+1. [Adversarial training](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/10)
 
 ### Robustness Certification
 1. การประมาณ adversarial loss
