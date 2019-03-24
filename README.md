@@ -31,7 +31,7 @@
 1. [การเรียนรู้แบบ Probably approximately correct](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/15)
 1. [ปัญหาการเรียนรู้รูปสี่เหลี่ยมขนานแกน](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/16)
 1. [การเรียนรู้เมื่อ hypothesis space มีขนาดจำกัด](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/17)
-1. Agnostic PAC learning
+1. [Agnostic PAC learning](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/18)
 1. Growth function และ VC dimension
 1. VC dimension generization bounds
 
