@@ -33,7 +33,7 @@
 1. [การเรียนรู้เมื่อ hypothesis space มีขนาดจำกัด](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/17)
 1. [Agnostic PAC learning](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/18)
 1. [VC dimension](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/19)
-1. VC dimension generization bounds
+1. รูปแบบทั่วไปของ generization bound
 
 ### Adversarially Robust Generalization
 1. Adversarial agnostic PAC learning
