@@ -36,7 +36,7 @@
 ### VC Dimension
 1. [Growth function และ VC dimension](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/19)
 1. [Generalization bound](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/20)
-1. Sample complexity
+1. [Sample complexity](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/21)
 1. Lower bound
 
 ### Adversarially Robust Generalization
