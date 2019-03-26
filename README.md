@@ -32,7 +32,9 @@
 1. [ปัญหาการเรียนรู้รูปสี่เหลี่ยมขนานแกน](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/16)
 1. [การเรียนรู้เมื่อ hypothesis space มีขนาดจำกัด](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/17)
 1. [Agnostic PAC learning](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/18)
-1. [VC dimension](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/19)
+
+### VC Dimension
+1. [Growth function และ VC dimension](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/19)
 1. [Generalization bound บน VC dimension](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/20)
 
 ### Adversarially Robust Generalization
