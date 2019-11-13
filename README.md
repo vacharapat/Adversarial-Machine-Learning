@@ -28,3 +28,9 @@
 1. [Semidefinite programming relaxation](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert4)
 
 ### Robust Features
+1. [คุณสมบัติของ adversarial example]()
+1. [Useful features และ robust features]()
+1. [การเทรนแบบจำลองด้วย robust features]()
+1. [ความสามารถของ non-robust features]()
+
+### การสังเคราะห์ข้อมูล
