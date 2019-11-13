@@ -8,11 +8,11 @@
 โดยเนื้อหาในช่วงแรกอ้างอิงจาก [Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org) ของ Zico Kolter และ Aleksander Madry
 
 ### บทนำ
-1. [แบบจำลอง deep learning พอสังเขป](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/01)
-1. [การสร้าง adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/02)
-1. [การโจมตีแบบกำหนดเป้าหมาย](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/03)
-1. [Adversarial robustness](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/04)
-1. [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/05)
+1. [แบบจำลอง deep learning พอสังเขป](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro1)
+1. [การสร้าง adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro2)
+1. [การโจมตีแบบกำหนดเป้าหมาย](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro3)
+1. [Adversarial robustness](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro4)
+1. [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro5)
 
 ### การโจมตีและการป้องกัน
 1. [แบบจำลอง Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/06)
@@ -44,4 +44,3 @@
 1. Adversarial VC dimension
 1. Sample complexity สำหรับ Gaussian model
 1. Sample complexity สำหรับ Bernoulli model
-
