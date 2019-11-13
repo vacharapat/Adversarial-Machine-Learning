@@ -15,11 +15,11 @@
 1. [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro5)
 
 ### การโจมตีและการป้องกัน
-1. [แบบจำลอง Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/06)
-1. [Adversarial linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/07)
-1. [Fast Gradient Sign Method](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/08)
-1. [Projected Gradient Descent](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/09)
-1. [Adversarial training](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/10)
+1. [แบบจำลอง Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack1)
+1. [Adversarial linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack2)
+1. [Fast Gradient Sign Method](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack3)
+1. [Projected Gradient Descent](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack4)
+1. [Adversarial training](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack5)
 
 ### Robustness Certification
 1. [การสร้าง robustness certificate](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/11)

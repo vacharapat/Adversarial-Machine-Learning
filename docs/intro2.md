@@ -29,15 +29,15 @@ $$
 
 กล่าวได้อีกอย่างคือ เมื่อเราพิจารณาการก่อกวนในเซต $$\Delta = \{\delta:\|\delta\|_\infty\leq\epsilon\}$$ หมายความว่าเรายอมให้ค่าในแต่ละมิติของ input $$x$$ เพิ่มขึ้นหรือลดลงจากเดิมได้ไม่เกิน $$\epsilon$$ นั่นเอง หากเรากำหนดค่า $$\epsilon$$ น้อย ๆ จนรับประกันว่าภาพที่ถูกก่อกวนแล้วยังคงเห็นได้ไม่ต่างจากเดิมแน่นอน เราก็สามารถใช้การก่อกวนลักษณะนี้ทดลองโจมตีแบบจำลองเพื่อทดสอบความทนทานได้
 
-เมื่อเรานิยามการหา adversarial example เป็นปัญหา optimization ได้ชัดเจนแล้ว เราสามารถแก้ปัญหานี้โดยใช้อัลกอริทึม gradient descent ได้เช่นกัน โดยทำการคำนวณหาเกรเดียนต์ของ loss เมื่อเทียบกับ $$\delta$$ และค่อย ๆ ปรับ $$\delta$$ เพื่อให้ loss เพิ่มขึ้นตามต้องการ โดยเมื่อใดก็ตามที่ $$\delta$$ พ้นขอบเขตที่กำหนด ($$\epsilon$$) เราทำการ project กลับมาให้อยู่ในขอบเขตของ $$\ell_\infty$$ โดยการ _clip_ ค่าที่เกิน $$\epsilon$$ ให้อยู่ที่ $$\epsilon$$ และ clip ค่าที่ต่ำกว่า $$-\epsilon$$ ให้อยู่ที่ $$-\epsilon$$ เราเรียกวิธีการนี้ว่า _projected gradient descent_ (PGD) นอกจากนี้ หากค่าของ input ในมิติใดมีขอบเขตจำกัด (เช่น $$x_i\in [0,1]$$) เราต้องระวังอย่าให้การก่อกวนนี้พาเราออกไปนอกขอบเขตด้วย (เราสามารถป้องกันเหตุการณ์ดังกล่าวโดยใช้การ clip เช่นเดียวกัน) 
+เมื่อเรานิยามการหา adversarial example เป็นปัญหา optimization ได้ชัดเจนแล้ว เราสามารถแก้ปัญหานี้โดยใช้อัลกอริทึม gradient descent ได้เช่นกัน โดยทำการคำนวณหาเกรเดียนต์ของ loss เมื่อเทียบกับ $$\delta$$ และค่อย ๆ ปรับ $$\delta$$ เพื่อให้ loss เพิ่มขึ้นตามต้องการ โดยเมื่อใดก็ตามที่ $$\delta$$ พ้นขอบเขตที่กำหนด ($$\epsilon$$) เราทำการ project กลับมาให้อยู่ในขอบเขตของ $$\ell_\infty$$ โดยการ _clip_ ค่าที่เกิน $$\epsilon$$ ให้อยู่ที่ $$\epsilon$$ และ clip ค่าที่ต่ำกว่า $$-\epsilon$$ ให้อยู่ที่ $$-\epsilon$$ เราเรียกวิธีการนี้ว่า _projected gradient descent_ (PGD) นอกจากนี้ หากค่าของ input ในมิติใดมีขอบเขตจำกัด (เช่น $$x_i\in [0,1]$$) เราต้องระวังอย่าให้การก่อกวนนี้พาเราออกไปนอกขอบเขตด้วย (เราสามารถป้องกันเหตุการณ์ดังกล่าวโดยใช้การ clip เช่นเดียวกัน)
 
-ใน [Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org) มีตัวอย่างการทดสอบการก่อกวนแบบจำลอง deep learning โดยใช้แบบจำลอง ResNet50 ที่ถูกเทรนมาสำหรับจำแนกรูปภาพออกเป็น 1000 คลาส เมื่อเราสั่งให้ทำนายรูปหมูด้านล่างนี้ แบบจำลองสามารถทำนายว่าเป็นรูปหมูได้ด้วยความน่าจะเป็น 0.996 
+ใน [Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org) มีตัวอย่างการทดสอบการก่อกวนแบบจำลอง deep learning โดยใช้แบบจำลอง ResNet50 ที่ถูกเทรนมาสำหรับจำแนกรูปภาพออกเป็น 1000 คลาส เมื่อเราสั่งให้ทำนายรูปหมูด้านล่างนี้ แบบจำลองสามารถทำนายว่าเป็นรูปหมูได้ด้วยความน่าจะเป็น 0.996
 
 <p align="center">
 <img width="350" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/output_0.png">
 </p>
 
-เมื่อเราทำการหาการก่อกวน $$\delta$$ โดยกำหนด $$\epsilon = 2/255$$ และทำ projected gradient descent ด้วย learning rate 0.1 เป็นจำนวน 30 รอบ เราได้รูปที่ถูกก่อกวนเป็นดังนี้ 
+เมื่อเราทำการหาการก่อกวน $$\delta$$ โดยกำหนด $$\epsilon = 2/255$$ และทำ projected gradient descent ด้วย learning rate 0.1 เป็นจำนวน 30 รอบ เราได้รูปที่ถูกก่อกวนเป็นดังนี้
 
 <p align="center">
 <img width="350" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/output_1.png">
@@ -52,3 +52,10 @@ $$
 </p>
 
 จากตัวอย่างนี้จะเห็นว่า เมื่อ input ที่เราจะให้แบบจำลองทำการตัดสินใจถูกปนเปื้อนด้วย noise ที่ดูเหมือนเกิดจากการสุ่ม แม้ว่าการเปลี่ยนแปลงของรูปนั้นน้อยมากจนสายตามนุษย์ไม่สามารถแยกออกได้ ก็ยังสามารถทำให้แบบจำลองทาง machine learning นั้นให้ผลผิดจากเดิมไปอย่างมาก ซึ่งแสดงถึง _ความเปราะบาง_ ของแบบจำลอง ซึ่งในบางสถานการณ์อาจนำมาสู่ผลร้ายได้
+
+## References
+1. [Z. Kolter, A. Madry, Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+
+---
+Prev: [แบบจำลอง deep learning พอสังเขป](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro1)
+Next: [การโจมตีแบบกำหนดเป้าหมาย](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro3)

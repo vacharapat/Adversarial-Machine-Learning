@@ -1,7 +1,7 @@
 {% include lib/mathjax.html %}
 # การโจมตีแบบกำหนดเป้าหมาย
 
-จากตัวอย่างการทดลองในหัวข้อก่อนหน้านี้ เนื่องจากวอมแบตก็ไม่ได้ดูแตกต่างกับหมูมากมายนัก ความผิดพลาดดังกล่าวอาจดูไม่ใช่ปัญหาใหญ่ 
+จากตัวอย่างการทดลองในหัวข้อก่อนหน้านี้ เนื่องจากวอมแบตก็ไม่ได้ดูแตกต่างกับหมูมากมายนัก ความผิดพลาดดังกล่าวอาจดูไม่ใช่ปัญหาใหญ่
 ในหัวข้อนี้เราจะแสดงให้เห็นว่าด้วยเทคนิคเดียวกันนี้ เราสามารถก่อกวนให้รูปหมูถูกทำนายเป็น class ใดก็ได้ตามที่เราต้องการ
 เราเรียกการโจมตีลักษณะนี้ว่า _การโจมตีแบบกำหนดเป้าหมาย_ (targeted attack) โดยมีวิธีการคือ แทนที่เราจะหา $$\delta\in \Delta$$
 ที่ทำให้ loss ของคลาสที่แท้จริงสูงที่สุดเพียงอย่างเดียว เราจะพยายามทำให้ loss ของคลาสที่แท้จริงสูงไปพร้อม ๆ กับพยายามทำให้ loss ของคลาสเป้าหมายต่ำที่สุดด้วย
@@ -28,3 +28,10 @@ $$
 <p align="center">
 <img width="350" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/output_4.png">
 </p>
+
+## References
+1. [Z. Kolter, A. Madry, Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+
+---
+Prev: [การสร้าง adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro2)
+Next: [Adversarial robustness](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro4)
