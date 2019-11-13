@@ -49,4 +49,5 @@ $$
 
 ---
 Prev: [การโจมตีแบบกำหนดเป้าหมาย](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro3)
+
 Next: [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro5)

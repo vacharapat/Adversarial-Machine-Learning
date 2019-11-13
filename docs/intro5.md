@@ -58,4 +58,5 @@ $$
 
 ---
 Prev: [Adversarial robustness](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro4)
+
 Next: [แบบจำลอง Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack1)
