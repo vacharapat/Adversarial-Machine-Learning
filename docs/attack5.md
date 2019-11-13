@@ -1,7 +1,7 @@
 {% include lib/mathjax.html %}
 # Adversarial training
 
-หลังจากที่เราได้รู้จักวิธีสร้าง adversarial example กันมาแล้ว คราวนี้เราจะกลับมาพิจารณาการสร้างแบบจำลอง machine learning 
+หลังจากที่เราได้รู้จักวิธีสร้าง adversarial example กันมาแล้ว คราวนี้เราจะกลับมาพิจารณาการสร้างแบบจำลอง machine learning
 ที่มีความทนทานต่อการก่อกวนเหล่านี้ จากที่เราได้ทราบกันมาแล้วว่า สำหรับแบบจำลอง $$h_\theta$$ ใด ๆ หากเราต้องการหาพารามิเตอร์ $$\theta$$
 ที่ทำให้แบบจำลองของเราทนทานต่อการก่อกวนมากที่สุด เราจะต้องหาค่า $$\theta$$ ที่นำไปสู่ adverarial risk ที่น้อยที่สุด นั่นคือ เราต้องการค่า $$\theta$$ ที่
 
@@ -59,4 +59,13 @@ $$
 <img width="300" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/adv_training.png">
 </p>
 
-สังเกตว่า หากเราทำ adversarial training โดยใช้ PGD ในการสร้าง adversarial perturbation ก็อาจได้แบบจำลองที่มีความทนทานมากขึ้นได้ อย่างไรก็ดี เนื่องจากการคำนวณหา adversarial perturbation โดยใช้ PGD แต่ละครั้งนั้นมีการวนรอบทำ gradient descent อยู่ สังเกตว่าหากเราใช้ PGD มาสร้าง adversarial perturbation ในการเทรนนี้ จะทำให้เวลาที่ต้องใช้ในการเทรนเพิ่มขึ้นจากการทำ standard training เป็นอย่างมาก ในขณะที่ FGSM สามารถสร้าง adversarial perturbation ได้ในเวลาอันรวดเร็ว จึงมีความสะดวกมากกว่าในการนำมาทำ adversarial training 
+สังเกตว่า หากเราทำ adversarial training โดยใช้ PGD ในการสร้าง adversarial perturbation ก็อาจได้แบบจำลองที่มีความทนทานมากขึ้นได้ อย่างไรก็ดี เนื่องจากการคำนวณหา adversarial perturbation โดยใช้ PGD แต่ละครั้งนั้นมีการวนรอบทำ gradient descent อยู่ สังเกตว่าหากเราใช้ PGD มาสร้าง adversarial perturbation ในการเทรนนี้ จะทำให้เวลาที่ต้องใช้ในการเทรนเพิ่มขึ้นจากการทำ standard training เป็นอย่างมาก ในขณะที่ FGSM สามารถสร้าง adversarial perturbation ได้ในเวลาอันรวดเร็ว จึงมีความสะดวกมากกว่าในการนำมาทำ adversarial training
+
+## References
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+1. [A. Madry et al. Towards Deep Learning Models Resistant to Adversarial Attacks. In: International Conference on Learning Representations. 2018](https://arxiv.org/abs/1706.06083)
+
+---
+Prev: [Projected Gradient Descent](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack4)
+
+Next: 
