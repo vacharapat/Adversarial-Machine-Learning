@@ -22,25 +22,9 @@
 1. [Adversarial training](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack5)
 
 ### Robustness Certification
-1. [การสร้าง robustness certificate](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/11)
-1. [Linear programming relaxation](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/12)
-1. [Quadratic programming](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/13)
-1. [Semidefinite programming relaxation](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/14)
+1. [การสร้าง robustness certificate](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert1)
+1. [Linear programming relaxation](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert2)
+1. [Quadratic programming](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert3)
+1. [Semidefinite programming relaxation](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert4)
 
-### ทฤษฎีการเรียนรู้เชิงคำนวณ
-1. [การเรียนรู้แบบ Probably approximately correct](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/15)
-1. [ปัญหาการเรียนรู้รูปสี่เหลี่ยมขนานแกน](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/16)
-1. [การเรียนรู้เมื่อ hypothesis space มีขนาดจำกัด](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/17)
-1. [Agnostic PAC learning](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/18)
-
-### VC Dimension
-1. [Growth function และ VC dimension](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/19)
-1. [Generalization bound](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/20)
-1. [Sample complexity](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/21)
-1. [Lower bound](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/22)
-
-### Adversarially Robust Generalization
-1. Adversarial agnostic PAC learning
-1. Adversarial VC dimension
-1. Sample complexity สำหรับ Gaussian model
-1. Sample complexity สำหรับ Bernoulli model
+### Robust Features

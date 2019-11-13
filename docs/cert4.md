@@ -81,3 +81,11 @@ $$
 $$
 
 โดยที่ขอบเขต  $$l_i$$ และ $$u_i$$ ก็สามารถใช้วิธีเดียวกับตอนทำ linear programming relaxation ในการหาได้
+
+## References
+1. [A. Raghunathan, J. Steinhardt, P. Liang. Semidefinite relaxations for certifying robustness to adversarial examples, In 32nd International Conference on Neural Information Processing Systems (NeurIPS), 2018](https://arxiv.org/abs/1811.01057)
+
+---
+Prev: [Quadratic programming](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert3)
+
+Next: 
