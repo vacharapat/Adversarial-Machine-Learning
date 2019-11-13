@@ -59,3 +59,11 @@ $$
 $$
 
 เราเรียกแบบจำลองนี้ว่า logistic regression และเรียก loss function นี้ว่า logistic loss เพื่อความสะดวกเรานิยามให้ $$L(z)=\log(1+e^{-z})$$ เราจะเขียนแทน logistic loss ได้ด้วย $$L(y\cdot h_\theta(x))$$
+
+## References
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+
+---
+Prev: [การสร้าง robust classifier](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro5)
+
+Next: [Adversarial linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack2)

@@ -1,7 +1,7 @@
 {% include lib/mathjax.html %}
 # Adversarial linear binary classification
 
-ในหัวข้อนี้เราจะมาวิเคราะห์การสร้าง adversarial example สำหรับแบบจำลอง logistic regression และการเทรน logistic regression classifier ให้มีความทนทานต่อการก่อกวน 
+ในหัวข้อนี้เราจะมาวิเคราะห์การสร้าง adversarial example สำหรับแบบจำลอง logistic regression และการเทรน logistic regression classifier ให้มีความทนทานต่อการก่อกวน
 
 ## การสร้าง adversarial example
 
@@ -32,7 +32,7 @@ $$
 \min_{\delta\in\Delta}y\cdot w^T\delta
 $$
 
-สมมติให้ $$\Delta$$ เป็น $$\ell_\infty$$-norm $$\Delta=\{\delta:\|\delta\|_\infty\leq\epsilon\}$$ 
+สมมติให้ $$\Delta$$ เป็น $$\ell_\infty$$-norm $$\Delta=\{\delta:\|\delta\|_\infty\leq\epsilon\}$$
 หากเราพิจารณากรณีที่ $$y=+1$$ จะเห็นว่า เราสามารถหาคำตอบของปัญหา minimization นี้ได้โดยกำหนดให้ $$\delta_i=-\epsilon$$
 เมื่อ $$w_i\geq 0$$ และให้ $$\delta_i=\epsilon$$ เมื่อ $$w_i<0$$ ในกรณีที่ $$y=-1$$ เราก็เพียงสลับเครื่องหมายของ $$\delta_i$$ ตามเงื่อนไขเหล่านี้ เราก็จะสามารถหา $$\delta^*$$ ที่เป็นคำตอบที่ดีที่สุดได้ เราอาจเขียนคำตอบนี้ได้เป็น
 
@@ -69,3 +69,11 @@ $$
 $$
 
 เมื่อ $$D_\text{train}$$ เป็นเซตของ training data ซึ่งปัญหานี้มีคุณสมบัติ convex บนตัวแปร $$w$$ และ $$b$$ ดังนั้นอัลกอริทึมในกลุ่ม gradient descent เช่น SGD ก็สามารถนำไปสู่คำตอบที่ดีที่สุดได้
+
+## References
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+
+---
+Prev: [แบบจำลอง Linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack1)
+
+Next: [Fast Gradient Sign Method](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack3)

@@ -45,7 +45,7 @@ $$
 ดังนั้นจะเห็นว่า หากเรามี training data และต้องการเทรนแบบจำลองให้มีความทนทานต่อการโจมตีสูงแทนที่จะมีความแม่นยำสูงเพียงอย่างเดียว เราทำได้โดยหาทางกำหนดพารามิเตอร์ของแบบจำลองให้ adversarial risk เมื่อเทียบกับ training data นี้มีค่าน้อยที่สุดนั่นเอง
 
 ## References
-1. [Z. Kolter, A. Madry, Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
 
 ---
 Prev: [การโจมตีแบบกำหนดเป้าหมาย](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro3)

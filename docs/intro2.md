@@ -54,7 +54,7 @@ $$
 จากตัวอย่างนี้จะเห็นว่า เมื่อ input ที่เราจะให้แบบจำลองทำการตัดสินใจถูกปนเปื้อนด้วย noise ที่ดูเหมือนเกิดจากการสุ่ม แม้ว่าการเปลี่ยนแปลงของรูปนั้นน้อยมากจนสายตามนุษย์ไม่สามารถแยกออกได้ ก็ยังสามารถทำให้แบบจำลองทาง machine learning นั้นให้ผลผิดจากเดิมไปอย่างมาก ซึ่งแสดงถึง _ความเปราะบาง_ ของแบบจำลอง ซึ่งในบางสถานการณ์อาจนำมาสู่ผลร้ายได้
 
 ## References
-1. [Z. Kolter, A. Madry, Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
 
 ---
 Prev: [แบบจำลอง deep learning พอสังเขป](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro1)

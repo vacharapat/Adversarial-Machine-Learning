@@ -2,7 +2,7 @@
 # Fast Gradient Sign Method
 
 ## จากแบบจำลองเชิงเส้นสู่ deep learning
-หลังจากที่เราได้รู้จักการสร้าง adversarial example และการทำ robust optimization ในแบบจำลองที่เป็นเชิงเส้นกันมาแล้ว 
+หลังจากที่เราได้รู้จักการสร้าง adversarial example และการทำ robust optimization ในแบบจำลองที่เป็นเชิงเส้นกันมาแล้ว
 เรามาลองพิจารณาบนแบบจำลอง deep neural network กันดูบ้าง ปัญหาแรกที่เราสนใจคือปัญหาการสร้าง adversarial example
 สำหรับตัวอย่างข้อมูล $$(x,y)$$ ใด ๆ ซึ่งมองเป็นปัญหา optimization ได้ดังนี้
 
@@ -81,3 +81,12 @@ $$
 
 สังเกตว่าหากแบบจำลองของเราเป็น linear binary classification โดยมีขอบเขตการก่อกวนเป็น $$\ell_\infty$$-norm FGSM จะให้ผลลัพธ์เป็นคำตอบที่ดีที่สุด
 อย่างไรก็ดี เรารู้ว่าสำหรับ deep neural network นั้นลักษณะของ loss function ไม่ได้มีทิศทางเป็น linear แม้ในบริเวณเล็ก ๆ ดังนั้นการพุ่งไปยังทิศทางของ gradient โดยตรงในครั้งเดียวนี้อาจไม่ได้พาเรามุ่งหน้าไปหาจุดที่ loss สูงสุดตามต้องการจริง ๆ หากเราต้องการการโจมตีที่ได้ผลดีกว่านี้ เราก็ต้องมีวิธีค้นหาจุดที่ค่า loss สูงที่ดีกว่านี้
+
+## References
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+1. [I. Goodfellow, J. Shlens, C. Szegedy. Explaining and Harnessing Adversarial Examples, In: 3rd International Conference on Learning Representations, 2015](https://arxiv.org/abs/1412.6572)
+
+---
+Prev: [Adversarial linear binary classification](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack2)
+
+Next: [Projected Gradient Descent](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack4)

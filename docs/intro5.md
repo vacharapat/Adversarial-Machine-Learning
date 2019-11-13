@@ -54,7 +54,7 @@ $$
 การทำ adversarial training ในลักษณะนี้มีความท้าทายอยู่ที่การจะแก้ปัญหา maximization ข้างในนั้นไม่ใช่เรื่องง่าย เนื่องจากสำหรับแบบจำลอง deep learning นั้น ปัญหา maximization ดังกล่าวไม่ได้อยู่ในกลุ่ม convex optimization ที่จะหาคำตอบได้เร็ว การใช้ gradient descent แบบที่ได้แสดงในการทดลองตอนแรกนั้นนอกจากจะเสียเวลามากสำหรับแต่ละ sample แล้วยังสามารถหาได้เพียงคำตอบที่เป็น local optimum ซึ่งหากเรานำคำตอบเหล่านี้มาใช้ในการคำนวณ gradient ในขั้นตอนที่สอง ก็ไม่สามารถรับประกันได้ว่าเราจะทำการปรับพารามิเตอร์ไปในทิศทางที่ถูกต้อง เนื่องจาก Danskin's theorem นั้น apply ได้สำหรับคำตอบที่นำมาสู่ค่า maximum จริงเท่านั้น อย่างไรก็ดี ในทางปฏิบัติแล้วเราพบว่าถ้าเราสามารถแก้ปัญหา maxmimization ข้างในได้ดีมากพอ (อาจไม่ต้องดีที่สุด) อัลกอริทึมนี้ก็ให้ผลที่ดีได้ นี่เป็นที่มาของอัลกอริทึมกลุ่มหนึ่งสำหรับประมาณคำตอบของปัญหา maximization ข้างในอย่างรวดเร็วที่เราจะได้เห็นกันต่อไป
 
 ## References
-1. [Z. Kolter, A. Madry, Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
 
 ---
 Prev: [Adversarial robustness](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro4)

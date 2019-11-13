@@ -30,7 +30,7 @@ $$
 </p>
 
 ## References
-1. [Z. Kolter, A. Madry, Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
+1. [Z. Kolter, A. Madry. Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org)
 
 ---
 Prev: [การสร้าง adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/intro2)
