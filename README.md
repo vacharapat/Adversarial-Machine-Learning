@@ -33,4 +33,4 @@
 1. [การเทรนแบบจำลองด้วย robust features]()
 1. [ความสามารถของ non-robust features]()
 
-### การสังเคราะห์ข้อมูล
+### การสังเคราะห์ภาพด้วย Robust Classifier
