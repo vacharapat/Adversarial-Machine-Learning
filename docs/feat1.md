@@ -24,7 +24,7 @@ $M_A$ นั่นคือ ทำให้ $M_A$ ทำนายคลาสข
 แต่ตัวอย่างข้อมูลที่เป็น adversarial example นั้นโจมตีข้ามแบบจำลองได้ นั่นแสดงว่า ถ้ามีผู้ไม่หวังดีสร้าง adversarial example โดยอ้างอิงจากแบบจำลองหนึ่ง และนำไปโจมตีระบบที่เกี่ยวข้องกับความปลอดภัยเหล่านี้
 ก็อาจจะสามารถโจมตีได้จริง
 
-##References
+## References
 
 1. [I. Goodfellow, J. Shlens, C. Szegedy. Explaining and Harnessing Adversarial Examples,
 In Intenational Conference on Learning Representations (ICLR), 2015](https://arxiv.org/abs/1412.6572)
