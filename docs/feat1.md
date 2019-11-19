@@ -68,4 +68,4 @@ In Intenational Conference on Learning Representations (ICLR), 2015](https://arx
 ---
 Prev: [Semidefinite programming relaxation](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert4)
 
-Next:
+Next: [Useful features และ robust features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat2)
