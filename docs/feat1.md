@@ -33,7 +33,7 @@ adversarial example ที่ทำให้แบบจำลองทำนา
 ทิศทางของการก่อกวนในตัวอย่างนี้แสดงด้วยลูกศรสีเขียว
 
 <p align="center">
-<img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/adv_ex.png">
+<img width="350" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/adv_ex.png">
 </p>
 
 ## References
