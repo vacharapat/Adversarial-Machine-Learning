@@ -88,4 +88,4 @@ $$
 ---
 Prev: [Quadratic programming](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/cert3)
 
-Next: 
+Next: [คุณสมบัติของ adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat1)
