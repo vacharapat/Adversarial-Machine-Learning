@@ -58,8 +58,10 @@ $$
 เราสามารถมองเป็นการ maximize
 
 $$
-\mathbb{E}_{(x,y)\sim D}[y\cdot \left(\sum_{f\in F}w_f\cdot f(x) + b\right)]
+\mathbb{E}_{(x,y)\sim D}\left[y\cdot \left(\sum_{f\in F}w_f\cdot f(x) + b\right)\right]
 $$
+
+
 
 
 ## References
