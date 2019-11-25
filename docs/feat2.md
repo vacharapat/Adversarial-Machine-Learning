@@ -59,10 +59,13 @@ $$
 
 $$
 \mathbb{E}_{(x,y)\sim D}\left[y\cdot \left(\sum_{f\in F}w_f\cdot f(x) + b\right)\right]
-=\sum_{f\in F}w_f\mathbb{E}[y\cdot f(x)] + \mathbb{E}[y\cdot b]
+=\sum_{f\in F}w_f\mathbb{E}_{(x,y)\sim D}[y\cdot f(x)] + \mathbb{E}_{(x,y)\sim D}[y\cdot b]
 $$
 
-จากตรงนี้จะเห็นว่า
+จากตรงนี้จะเห็นว่า feature ที่จะมีน้ำหนักในการตัดสินใจของแบบจำลอง ย่อมจะต้องเป็น useful feature ทั้งสิ้น
+
+สำหรับแบบจำลองการเรียนรู้เชิงลึกนั้น เราสามารถมอง function ที่ map จาก input $x$ ไปยังค่าที่ออกจาก node
+แต่ละ node ใน hidden layer สุดท้าย เป็น feature แต่ละ feature ได้ จะเห็นว่าการคำนวณคะแนนของแต่ละคลาสใน output layer ก็คือการคำนวณ linear combination ของ feature เหล่านี้เช่นเดียวกับข้อกำหนดด้านบน
 
 
 
