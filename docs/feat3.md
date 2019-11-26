@@ -35,11 +35,18 @@ $$
 ของแบบจำลองที่ทำให้
 
 $$
-\mathbb{E}_{(x,y)\sim D}[\max_{\delta in \Delta(x)}\mathcal{L}_\theta(x+\delta, y)]
+\mathbb{E}_{(x,y)\sim D}[\max_{\delta \in \Delta(x)}\mathcal{L}_\theta(x+\delta, y)]
 $$
 
 มีค่าน้อยที่สุด โดยที่ $\mathcal{L}_\theta(x, y)$ แทน loss ของตัวอย่างข้อมูล $(x, y)$
 เมื่อแบบจำลองมีพารามิเตอร์เป็น $\theta$
+หากพิจารณาการเทรนเช่นนี้ด้วยแบบจำลองที่ตัดสินใจด้วย linear combination ของ feature ทั้งหมดเช่นเดียวกับด้านบน
+เราจะได้ว่ากระบวนการเทรนนี้สอดคล้องกับการทำให้คะแนนเฉลี่ยที่แบบจำลองตอบถูกบน adversarial example
+สูงที่สุด กล่าวอีกอย่างคือ การทำ adversarial training คือการ maximize
+
+$$
+\mathbb{E}_{(x,y)\sim D}\left[y\cdot\inf_{\delta\in\Delta(x)}\left(\sum_{f\in F}w_f\cdot f(x+\delta) + b\right)\right]
+$$
 
 จากนี้ยามของ feature สองกลุ่มนี้ เราจะมาดูการทดลองเพื่อยืนยันว่า weak feature นั้นมีอยู่จริงและมีบทบาทสำคัญในการตัดสินใจของแบบจำลองเมื่อทำการเรียนรู้แบบปกติ (standard learning)
 
