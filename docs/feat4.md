@@ -69,7 +69,7 @@ test set ตั้งต้น (บนการกระจายตัว $D$) 
 บนชุดข้อมูลดั้งเดิมอีกด้วย
 
 <p align="center">
-<img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/CIFAR_res.png">
+<img width="550" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/CIFAR_res.png">
 </p>
 
 คราวนี้หากเราทำการทดลองแบบเดิม โดยที่เปลี่ยนแบบจำลอง $C$ ที่ใช้ประกอบการสร้างชุดข้อมูลใหม่ให้เป็นแบบจำลองที่สร้างจาก standard training (ซึ่งไม่มีความทนทานต่อการโจมตี)
