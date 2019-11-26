@@ -72,6 +72,23 @@ test set ตั้งต้น (บนการกระจายตัว $D$) 
 <img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/CIFAR_res.png">
 </p>
 
+คราวนี้หากเราทำการทดลองแบบเดิม โดยที่เปลี่ยนแบบจำลอง $C$ ที่ใช้ประกอบการสร้างชุดข้อมูลใหม่ให้เป็นแบบจำลองที่สร้างจาก standard training (ซึ่งไม่มีความทนทานต่อการโจมตี)
+ให้ $$\widehat{D}_{NR}$$ แทนชุดข้อมูลที่ได้จากการสร้างด้วย $C$ อย่างแรกที่เราเห็นคือ ตัวอย่างข้อมูลใน
+$$\widehat{D}_{NR}$$ นั้นมีความเป็น noise อย่างมากและไม่มีลักษณะใกล้เคียงกับภาพตั้งต้นที่ใช้ ซึ่งผิดกับตัวอย่างข้อมูลใน $$\widehat{D}_R$$ ที่ดึงลักษณะเด่นของภาพตั้งต้นออกมาได้มาก
+
+ถัดมา เมื่อเรานำชุดข้อมูล $$\widehat{D}_{NR}$$ มาเทรนแบบจำลองใหม่ด้วยการทำ standard training
+และทำการทดสอบแบบจำลองที่ได้บน test set ดั้งเดิม (บนการกระจายตัว $D$) เราพบว่าแบบจำลองที่ได้นั้นมีความแม่นยำสูง
+ถึงแม้ว่าข้อมูลที่ใช้เทรนมีลักษณะเป็น noise อย่างมาก อย่างไรก็ดีเมื่อทดสอบความแม่นยำกับ adversarial example
+เราพบว่าแบบจำลองที่ได้นี้ไม่มีความทนทานต่อการโจมตี ภาพด้านล่างสรุปภาพรวมของการทดลองที่กล่าวมาทั้งหมด
+
+<p align="center">
+<img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/robust_nonrobust_dataset.png">
+</p>
+
+ผลจากการทดลองนี้สนับสนุนแนวคิดที่ว่า weak feature ในข้อมูลนั้นมีอยู่จริง และในการตัดสินใจของแบบจำลองที่เทรนแบบ standard training นั้นมีการใช้ประโยชน์จาก weak feature ประกอบเป็นอย่างมาก (ดูจากตัวอย่างภาพที่สร้างได้จาก classifier $C$ ที่เป็น standard model ซึ่งเราไม่เห็นคุณลักษณะเด่นของคลาสเลย นั่นแสดงว่าตัวอย่างข้อมูลนี้ดึงคุณลักษณะของ weak feature ขึ้นมามากนั่นเอง)
+นอกจากนี้การที่ชุดข้อมูลที่สร้างจาก robust model สามารถเทรนแบบจำลองใหม่ให้มีความทนทานได้โดยใช้ standard training ก็ยังสนับสนุนแนวคิดที่ว่าตัว robust model ที่เทรนด้วย adversarial training นั้นทำการตัดสินใจโดยใช้
+robust feature เป็นหลัก
+
 ## References
 
 1. [A. Ilyas, S. Santurkar, D. Tsipras, L. Engstrom, B. Tran, A. Madry. Adversarial Examples Are Not Bugs, They Are Features, In: Advances in Neural Information Processing Systems, 2019](https://arxiv.org/abs/1905.02175)
