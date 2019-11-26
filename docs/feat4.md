@@ -62,6 +62,16 @@ $$
 <img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/frog.png">
 </p>
 
+## การเทรนแบบจำลองด้วย robust training set
+เมื่อเราสร้าง training set ใหม่บนการกระจายตัว $$\widehat{D}_R$$ ได้แล้ว เราทดลองนำ training set
+นี้มาเทรนแบบจำลองใหม่โดยใช้การเทรนแบบ standard training จากนั้นนำแบบจำลองที่เทรนได้ไปทดสอบกับ
+test set ตั้งต้น (บนการกระจายตัว $D$) ผลที่ได้เป็นดังภาพด้านล่าง ซึ่งแสดงให้เห็นว่าแบบจำลองที่ได้นั้นมีความแม่นยำสูงและยังมีความทนทานที่ดีขึ้นกว่าการทำ standard training
+บนชุดข้อมูลดั้งเดิมอีกด้วย
+
+<p align="center">
+<img width="400" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/CIFAR_res.png">
+</p>
+
 ## References
 
 1. [A. Ilyas, S. Santurkar, D. Tsipras, L. Engstrom, B. Tran, A. Madry. Adversarial Examples Are Not Bugs, They Are Features, In: Advances in Neural Information Processing Systems, 2019](https://arxiv.org/abs/1905.02175)
