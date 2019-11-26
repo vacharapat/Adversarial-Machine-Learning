@@ -18,7 +18,7 @@ useful feature ที่มนุษย์สังเกตได้และ�
 สำหรับ useful feature $f\in F$ ใด ๆ $f$ จะเป็น robust feature ถ้า
 
 $$
-\mathbb{E}_{(x,y)\sim D}[y\cdot \inf_{\delta\in\Delta(x)}f(x+\delta)]\geq\rho'
+\mathbb{E}_{(x,y)\sim D}\left[y\cdot \inf_{\delta\in\Delta(x)}f(x+\delta)\right]\geq\rho'
 $$
 
 เมื่อ $\rho'>0$
