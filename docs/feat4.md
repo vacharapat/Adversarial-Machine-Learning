@@ -69,7 +69,7 @@ test set ตั้งต้น (บนการกระจายตัว $D$) 
 บนชุดข้อมูลดั้งเดิมอีกด้วย
 
 <p align="center">
-<img width="400" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/CIFAR_res.png">
+<img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/CIFAR_res.png">
 </p>
 
 ## References
