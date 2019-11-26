@@ -35,7 +35,7 @@ $$
 ของแบบจำลองที่ทำให้
 
 $$
-\mathbb{E}_{(x,y)\sim D}[\max_{\del in \Delta(x)}\mathcal{L}_\theta(x+\delta, y)]
+\mathbb{E}_{(x,y)\sim D}[\max_{\delta in \Delta(x)}\mathcal{L}_\theta(x+\delta, y)]
 $$
 
 มีค่าน้อยที่สุด โดยที่ $\mathcal{L}_\theta(x, y)$ แทน loss ของตัวอย่างข้อมูล $(x, y)$
