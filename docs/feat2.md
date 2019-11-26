@@ -79,4 +79,4 @@ $$
 ---
 Prev: [คุณสมบัติของ adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat1)
 
-Next:
+Next: [Robust features และ weak features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat3)
