@@ -31,7 +31,7 @@
 1. [คุณสมบัติของ adversarial example](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat1)
 1. [Useful features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat2)
 1. [Robust features และ weak features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat3)
-1. [การเทรนแบบจำลองด้วย robust features]()
+1. [การเทรนแบบจำลองด้วย robust features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat4)
 1. [ความสามารถของ weak features]()
 
 ### การสังเคราะห์ภาพด้วย Robust Classifier
