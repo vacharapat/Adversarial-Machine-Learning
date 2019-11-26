@@ -56,6 +56,12 @@ $$
 \end{array}
 $$
 
+ภาพด้านล่างแสดงตัวอย่างของข้อมูลที่สร้างได้จากกระบวนการดังกล่าว
+
+<p align="center">
+<img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/frog.png">
+</p>
+
 ## References
 
 1. [A. Ilyas, S. Santurkar, D. Tsipras, L. Engstrom, B. Tran, A. Madry. Adversarial Examples Are Not Bugs, They Are Features, In: Advances in Neural Information Processing Systems, 2019](https://arxiv.org/abs/1905.02175)
