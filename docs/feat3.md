@@ -28,7 +28,14 @@ $$
 บนค่า $\rho'>0$ ใด ๆ เลย เราจะเรียก $f$ ว่าเป็น _weak feature_
 
 สังเกตว่า weak feature นั้นมีส่วนช่วยในการตัดสินใจของแบบจำลองได้ดีเมื่อเราทำการเรียนรู้แบบทั่วไป
-แต่เป็นตัวที่สร้างปัญหาเมื่อเจอกับ adversarial example เนื่องจาก feature กลุ่มนี้ไม่ได้ให้คะแนนไปทางคลาสเดิมอีกต่อไป
+แต่เป็นตัวที่สร้างปัญหาเมื่อเจอกับ adversarial example เนื่องจาก feature กลุ่มนี้ไม่ได้ให้คะแนนไปทางคลาสเดิมอีกต่อไป และจากที่มนุษย์เราแยกแยะข้อแตกต่างระหว่างตัวอย่างข้อมูลเดิมกับ
+adversarial example ไม่ได้ แสดงว่า weak feature นี้จะต้องเป็น feature ที่มนุษย์สังเกตไม่ได้นั่นเอง
+ภาพรวมของ useful feature ทั้งสองกลุ่มแสดงดังรูปด้านล่าง
+
+<p align="center">
+<img width="500" src="https://raw.githubusercontent.com/vacharapat/Adversarial-Machine-Learning/master/images/robust_features.png">
+</p>
+
 
 จากนิยามของ feature สองกลุ่มนี้ สังเกตว่าในการเทรนแบบจำลองด้วย [adversarial training](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/attack5)
 นั้น เราพยายามที่จะ minimize ค่าเฉลี่ยของ adversarial loss กล่าวคือ เราต้องการหาค่าของพารามิเตอร์ต่าง ๆ
