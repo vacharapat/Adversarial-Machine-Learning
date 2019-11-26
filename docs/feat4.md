@@ -51,7 +51,7 @@ $$
 \quad \text{for } (x,y)\in D:\\
 \quad \quad x_0\gets \text{ random noise}\\
 \quad \quad x_r\gets \arg\min_{x_r\in\mathcal{X}}\|h(x_r) - h(x)\|_2 \quad\text{(ใช้ PGD โดยเริ่มต้นที่ $x_0$)}\\
-\quad \quad D_R\gets D_R\cup \{(x_r, y)\}
+\quad \quad D_R\gets D_R\cup \{(x_r, y)\}\\
 \quad \text{Return } D_R
 \end{array}
 $$
