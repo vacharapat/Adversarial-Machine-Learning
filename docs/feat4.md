@@ -18,10 +18,25 @@ $\widehat{D}_R$ ที่มีคุณสมบัติดังนี้
 $$
 \mathbb{E}_{(x,y)\sim \widehat{D}_R}[y\cdot f(x)] =
 \begin{cases}
-\mathbb{E}_{(x,y)\sim D}[y\cdot f(x)] & \text{ ถ้า } f\in F_c\\
+\mathbb{E}_{(x,y)\sim D}[y\cdot f(x)] & \text{ ถ้า } f\in F_C\\
 0 & \text{ กรณีอื่น}
 \end{cases}
 $$
+
+โดยที่ $F_C$ แทนเซตของ feature ที่ใช้ประกอบในการตัดสินใจของ classifier $C$
+นั่นคือ เราต้องการให้ในการกระจายตัวของข้อมูล $\widehat{D}_R$ นั้น feature ใดที่ใช้ประกอบการตัดสินใจของ $C$
+จะยังคงเป็น useful feature อยู่ในขณะที่ feature อื่น ๆ ใช้งานไม่ได้ เนื่องจากเราเชื่อว่า $C$ ที่มีความทนทานต่อการโจมตีนั้นจะตัดสินใจจาก robust feature เป็นหลัก เราจึงคาดว่าการกระจายตัว $\widehat{D}_R$
+ที่จะได้มานั้นจะมีเฉพาะ robust feature ที่เป็น useful feature
+
+ในการสร้าง training set ของ $\widehat{D}_R$ เราจะพิจารณาตัวอย่างข้อมูล $x$ แต่ละตัวใน
+training set เดิมบนการกระจายตัว $D$ และทำการสร้างตัวอย่างข้อมูล $x_r$ ขึ้นมาใหม่โดยอิงจาก $x$ และ $C$ ดังนี้
+เราเริ่มจากการสุ่ม noise $x_0$ และใช้ gradient descent ในการหา $x_r$ ที่
+
+$$
+\min_{x_r\in\mathcal{X}}\|h(x_r) - h(x_0)\|_2
+$$
+
+เมื่อ $h$ เป็นฟังก์ชันที่ map จาก input $x$ ไปยัง representation layer 
 
 ## References
 
