@@ -33,5 +33,3 @@
 1. [Robust features และ weak features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat3)
 1. [การเทรนแบบจำลองด้วย robust features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat4)
 1. [ความสามารถของ weak features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat5)
-
-### การสังเคราะห์ภาพด้วย Robust Classifier
