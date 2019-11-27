@@ -58,8 +58,7 @@ $$
 
 ## References
 
-1. [I. Goodfellow, J. Shlens, C. Szegedy. Explaining and Harnessing Adversarial Examples,
-In Intenational Conference on Learning Representations (ICLR), 2015](https://arxiv.org/abs/1412.6572)
+1. [A. Ilyas, S. Santurkar, D. Tsipras, L. Engstrom, B. Tran, A. Madry. Adversarial Examples Are Not Bugs, They Are Features, In: Advances in Neural Information Processing Systems, 2019](https://arxiv.org/abs/1905.02175)
 
 ---
 Prev: [Useful features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat2)
