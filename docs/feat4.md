@@ -96,4 +96,4 @@ robust feature เป็นหลัก
 ---
 Prev: [Robust features และ weak features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat3)
 
-Next:
+Next: [ความสามารถของ weak features](https://vacharapat.github.io/Adversarial-Machine-Learning/docs/feat5)
