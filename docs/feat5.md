@@ -43,8 +43,8 @@ $(x', y')$ ทั้งหมด ก็จะทำให้ weak feature เห
 $$
 \mathbb{E}_{(x, y)\in \widehat{D}_{rand}}[y\cdot f(x)]
 \begin{cases}
-> 0 & \text{ ถ้า } f \text{ เป็น } weak feature \text{ บน } D\\
-\approx 0 & \text{ กรณีอื่น} 
+> 0 & \text{ ถ้า } f \text{ เป็น weak feature บน } D\\
+\approx 0 & \text{ กรณีอื่น}
 \end{cases}
 $$
 
